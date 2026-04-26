@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">simplelogin</string>
+    <string name="name">Name</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create">Create</string>
+    <string name="email_username">Email/Username</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Sign in</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="address">Address</string>
+    <string name="avatar_url">Avatar URL</string>
+    <string name="description">Description</string>
+    <string name="profile">Profile</string>
+    <string name="sort_by_date">Sort by Date</string>
+    <string name="sort_by_author">Sort by Author</string>
+    <string name="post">Post</string>
+    <string name="write_something">Write something...</string>
+    <string name="detail">Detail</string>
+    <string name="hide">Hide</string>
+    <string name="posts">Posts</string>
+</resources>
