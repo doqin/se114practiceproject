@@ -15,6 +15,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -53,6 +54,8 @@ public class PostsActivity extends AppCompatActivity {
         editTextPost = findViewById(R.id.editTextPost);
         listViewPosts = findViewById(R.id.listViewPosts);
         Button buttonPost = findViewById(R.id.buttonPost);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         listViewPosts.setAdapter(adapter);
         registerForContextMenu(listViewPosts);
